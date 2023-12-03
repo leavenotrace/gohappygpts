@@ -72,11 +72,11 @@ const en = {
     },
     Backup: {
       Download: {
-        Title: "Backup Bots",
+        Title: "Backup GPTs",
         SutTitle: "Download the state of your bots to a JSON file",
       },
       Upload: {
-        Title: "Restore Bots",
+        Title: "Restore GPTs",
         SutTitle: "Upload the state of your bots from a JSON file",
         Success: "Successfully restored the bots from the JSON file",
         Failed: (e: string) => `Error importing the JSON file: ${e}`,
@@ -84,7 +84,7 @@ const en = {
     },
   },
   Store: {
-    DefaultBotName: "New Bot",
+    DefaultBotName: "New GPT",
     BotHello: "Hello! How can I assist you today?",
   },
   Copy: {
@@ -98,7 +98,7 @@ const en = {
     Title: "Context Prompt Settings",
   },
   Share: {
-    Title: "Share Bot",
+    Title: "Share GPT",
     Url: {
       Title: "URL",
       Hint: "Use the URL to share your bot. The URL will be valid for 30 days.",
@@ -108,8 +108,8 @@ const en = {
   Bot: {
     Name: "Bot",
     Page: {
-      Search: (count: number) => `Search Bot - ${count} bots`,
-      Create: "Create bot",
+      Search: (count: number) => `Search GPT - ${count} GPTs`,
+      Create: "Create GPT",
     },
     Item: {
       Edit: "Edit",
@@ -118,12 +118,12 @@ const en = {
       Share: "Share",
     },
     EditModal: {
-      Title: `Edit Bot`,
+      Title: `Edit GPT`,
       Clone: "Clone",
     },
     Config: {
-      Avatar: "Bot Avatar",
-      Name: "Bot Name",
+      Avatar: "GPT Avatar",
+      Name: "GPT Name",
       HideContext: {
         Title: "Hide Context Prompts",
         SubTitle: "Do not show in-context prompts in chat",
@@ -132,13 +132,13 @@ const en = {
         Title: "Welcome Message",
         SubTitle: "Welcome message sent when starting a new chat",
       },
-      Title: "Bot Settings",
+      Title: "GPT Settings",
     },
   },
 
   Welcome: {
-    Title: "Chat LlamaIndex",
-    SubTitle: "Create chat bots that know your data",
+    Title: "Happy GPTs",
+    SubTitle: "用企业内部数据创建私有GPT",
     Quote:
       "“This tool has saved me countless hours of work and helped me apply AI features to my work faster than ever before.”",
     LoginLinkedinTitle: "Login with LinkedIn",

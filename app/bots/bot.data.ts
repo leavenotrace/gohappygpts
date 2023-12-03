@@ -13,6 +13,98 @@ export const DEMO_BOTS: DemoBot[] = [
   {
     id: "1",
     avatar: "1f916",
+    name: "公司AI管家婆",
+    botHello: "从公司考勤年终奖到哪里吃喝拉撒睡，我都有问必答",
+    context: [],
+    modelConfig: {
+      model: "gpt-4-1106-preview",
+      temperature: 0.3,
+      maxTokens: 4096,
+      sendMemory: false,
+    },
+    readOnly: true,
+    hideContext: false,
+  },
+  {
+    id: "2",
+    avatar: "1f454",
+    name: "营业部数字员工",
+    botHello:
+      "把客户的订单需求转化成生产通知单，及时和客户沟通在生成过程中的质量和进度问题",
+    context: [],
+    modelConfig: {
+      model: "gpt-4-1106-preview",
+      temperature: 0.3,
+      maxTokens: 4096,
+      sendMemory: false,
+    },
+    readOnly: true,
+    hideContext: false,
+  },
+  {
+    id: "3",
+    avatar: "1f454",
+    name: "生产部数字员工",
+    botHello: "从生产工艺、样板大货进度、质量、仓存等有关问题，有问必答",
+    context: [],
+    modelConfig: {
+      model: "gpt-4-1106-preview",
+      temperature: 0.3,
+      maxTokens: 4096,
+      sendMemory: false,
+    },
+    readOnly: true,
+    hideContext: false,
+  },
+  {
+    id: "4",
+    avatar: "1f454",
+    name: "财务部数字员工",
+    botHello: "从报销到成本核算，大大小小的问题，找我没错！",
+    context: [],
+    modelConfig: {
+      model: "gpt-4-1106-preview",
+      temperature: 0.3,
+      maxTokens: 4096,
+      sendMemory: false,
+    },
+    readOnly: true,
+    hideContext: false,
+  },
+  {
+    id: "5",
+    avatar: "1f454",
+    name: "连锁店数字员工",
+    botHello:
+      "从店铺的配补调到哪个客户穿什么衣服好看什么话她听着开心，总之伺候到你舒坦为止！",
+    context: [],
+    modelConfig: {
+      model: "gpt-4-1106-preview",
+      temperature: 0.3,
+      maxTokens: 4096,
+      sendMemory: false,
+    },
+    readOnly: true,
+    hideContext: false,
+  },
+  {
+    id: "6",
+    avatar: "1f4da",
+    name: "ChatGPT",
+    botHello: "基于GPT-4 Turbo的全宇宙超级懂王，随便问我！",
+    context: [],
+    modelConfig: {
+      model: "gpt-4-1106-preview",
+      temperature: 0.3,
+      maxTokens: 4096,
+      sendMemory: false,
+    },
+    readOnly: true,
+    hideContext: false,
+  },
+  /*   {
+    id: "1",
+    avatar: "1f916",
     name: "GPT-4 Vision Preview",
     botHello: "Hello! How can I assist you today?",
     context: [],
@@ -24,8 +116,8 @@ export const DEMO_BOTS: DemoBot[] = [
     },
     readOnly: true,
     hideContext: false,
-  },
-  {
+  }, */
+  /*   {
     id: "2",
     avatar: "1f916",
     name: "My Documents",
@@ -39,8 +131,8 @@ export const DEMO_BOTS: DemoBot[] = [
     },
     readOnly: true,
     hideContext: false,
-  },
-  {
+  }, */
+  /* {
     id: "3",
     avatar: "1f5a5-fe0f",
     name: "Red Hat Linux Expert",
@@ -60,8 +152,8 @@ export const DEMO_BOTS: DemoBot[] = [
     readOnly: true,
     datasource: "redhat",
     hideContext: false,
-  },
-  {
+  }, */
+  /*  {
     id: "4",
     avatar: "1f454",
     name: "Apple Watch Genius",
@@ -81,8 +173,8 @@ export const DEMO_BOTS: DemoBot[] = [
     readOnly: true,
     datasource: "watchos",
     hideContext: false,
-  },
-  {
+  }, */
+  /*   {
     id: "5",
     avatar: "1f4da",
     name: "German Basic Law Expert",
@@ -102,7 +194,7 @@ export const DEMO_BOTS: DemoBot[] = [
     readOnly: true,
     datasource: "basic_law_germany",
     hideContext: false,
-  },
+  }, */
 ];
 
 export const createDemoBots = (): Record<string, Bot> => {
