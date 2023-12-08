@@ -85,7 +85,8 @@ const en = {
   },
   Store: {
     DefaultBotName: "New GPT",
-    BotHello: "Hello! How can I assist you today?",
+    BotHello:
+      "Building private knowledge library with documents and databases.",
   },
   Copy: {
     Success: "Copied to clipboard",

@@ -18,7 +18,7 @@ export default async function App({ params }: { params: { botId: string } }) {
     return (
       <>
         Sorry, there is no bot at this URL. Try&nbsp;
-        <a href="/">creating your own bot</a>.
+        <a href="/">creating your own GPT</a>.
       </>
     );
   }
