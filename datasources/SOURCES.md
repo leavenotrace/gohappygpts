@@ -1,16 +1,16 @@
 ## Sources
 
-### redhat
+### 销售部
 
 https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/9/pdf/performing_an_advanced_rhel_9_installation/red_hat_enterprise_linux-9-performing_an_advanced_rhel_9_installation-en-us.pdf
 
-### watchos
+### 财务部
 
 https://help.apple.com/pdf/watch/10/en_US/apple-watch-user-guide-watchos10.pdf
 
 
 
-### basic_law_germany
+### 生产部
 
 https://www.gesetze-im-internet.de/englisch_gg/englisch_gg.html
 
