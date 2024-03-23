@@ -138,8 +138,8 @@ const en = {
   },
 
   Welcome: {
-    Title: "Happy GPTs",
-    SubTitle: "用企业内部数据创建私有GPT",
+    Title: "知识流水线",
+    SubTitle: "用企业内部数据创建知识库&Agent",
     Quote:
       "“This tool has saved me countless hours of work and helped me apply AI features to my work faster than ever before.”",
     LoginLinkedinTitle: "Login with LinkedIn",
